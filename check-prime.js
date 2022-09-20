@@ -1,12 +1,12 @@
-let num = 17;
+let num = 19;
 function check_prime(num){
-let fact = 0;
+let factor = 0;
 for(let i=1;i<=num;i++){
  if(num%i==0){
-  fact++;
+  factor++;
 }
 }
-if(fact==0){
+if(factor==0){
  return true;
 }else{
  return false 
